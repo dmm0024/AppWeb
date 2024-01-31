@@ -42,3 +42,11 @@ footer{
     display: flex;
     justify-content: start;
 }
+#inicio{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.title{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
