@@ -24,6 +24,35 @@
             </ul>
         </nav>
     </header>
+    <section>
+        <div>
+            <div>
+                <img src="./Imagenes/img-contactanos.webp" alt="Contactanos" width="500" height="500">
+            </div>
+            <form>
+                <fieldset style="background-color: rgb(127, 187, 255);">
+                    <label>Nombre:</label><br>
+                    <input type="text"id="nombre"name="nombre"placeholder="Escriba tu nombre"><br><br>
+                    <label for="correo">Email:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="correo@empresa.com"><br><br>
+                    <label for="asunto">Asunto</label><br>
+                    <textarea name="asunto" id="asunto" cols="30" rows="5">El asunto del mensaje</textarea><br>
+                    <label>¿Como nos ha conocido?</label><br><br>
+                    <input type="checkbox" id="Amigo" name="Amigo">
+                        <label for="Amigo">Un amigo</label>
+                    <input type="checkbox" id="Internet" name="Internet">
+                        <label for="Internet">Internet</label>
+                    <input type="checkbox" id="anuncio" name="anuncio">
+                        <label for="anuncio">Un anuncio</label>
+                    <input type="checkbox" id="otros" name="otros">
+                        <label for="otros">otros</label><br><br>
+                    <label>Escriba tu mensaje</label><br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+    </section>
     <footer>
         <a id="casa" href="./index.html"><img src="./Imagenes/house.png" alt="casa" width="50" height="50"></a>
     </footer>

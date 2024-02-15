@@ -50,3 +50,15 @@ footer{
     display: grid;
     grid-template-columns: 7fr 3fr;
 }
+section{
+    display: flex;
+    justify-content:space-around;
+}
+div img:hover{
+    width: 320px;
+    height: 220px;
+    cursor: pointer;
+}
+div h1:hover{
+    color: red;
+}

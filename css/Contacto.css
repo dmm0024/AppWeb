@@ -50,3 +50,11 @@ footer{
     display: grid;
     grid-template-columns: 7fr 3fr;
 }
+fieldset{
+    width: 500px;
+    height: 500px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
