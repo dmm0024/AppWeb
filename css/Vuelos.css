@@ -50,7 +50,7 @@ footer{
     display: grid;
     grid-template-columns: 7fr 3fr;
 }
-section{
+.billetes{
     display: flex;
     justify-content:space-around;
 }
@@ -59,6 +59,14 @@ div img:hover{
     height: 220px;
     cursor: pointer;
 }
-div h1:hover{
+h1 a:hover{
     color: red;
+}
+.seccion{
+ background-color: cadetblue;
+ padding: 1rem;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
 }
