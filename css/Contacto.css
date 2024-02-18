@@ -36,11 +36,9 @@ footer{
     background: rgba(55, 58, 58, 0.8);
     color: white;
     padding: 20px;
-    display: flex;
 }
 #casa{
-    display: flex;
-    justify-content: start;
+    text-align: center;
 }
 #inicio{
     display: grid;
@@ -57,4 +55,13 @@ fieldset{
 div{
     display: flex;
     justify-content: space-around;
+}
+#enviar{
+    text-decoration: none;
+    color: black;
+    border: 1rem;
+    padding: 10px 3px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
 }

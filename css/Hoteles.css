@@ -24,7 +24,6 @@ li a{
     width: 100%;
 }
 
-
 ul {
     display: flex;
     justify-content: space-between;
@@ -36,11 +35,9 @@ footer{
     background: rgba(55, 58, 58, 0.8);
     color: white;
     padding: 20px;
-    display: flex;
 }
 #casa{
-    display: flex;
-    justify-content: start;
+    text-align: center;
 }
 #inicio{
     display: grid;
@@ -68,4 +65,9 @@ h1 a:hover{
 }
 h1 a{
     text-decoration: none;
+    color: black;
+}
+#imageninicio{
+    width: 100%;
+    height: 35rem;
 }
