@@ -35,9 +35,18 @@ footer{
     background: rgba(55, 58, 58, 0.8);
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
+
+footer .pie{
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+}
+
 #casa{
-    text-align: center;
+    float: left;
 }
 #inicio{
     display: grid;
