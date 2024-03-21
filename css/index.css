@@ -3,7 +3,7 @@ header{
     color: white;
 }
 body{
-    background-color: rgb(217, 235, 229);
+   
 }
 h1{
     display: flex;
@@ -37,7 +37,6 @@ footer{
     background: rgba(55, 58, 58, 0.8);
     color: white;
     padding: 20px;
-    
 }
 #inicio{
     display: grid;
