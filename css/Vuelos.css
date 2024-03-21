@@ -58,7 +58,7 @@ footer .pie{
     display: flex;
     justify-content:space-around;
 }
-div img:hover{
+.imagen:hover{
     width: 320px;
     height: 220px;
     cursor: pointer;
